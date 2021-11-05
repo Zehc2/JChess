@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+    <fullyQualifiedTypeName name="com.chess.engine.board.Alliance"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="com.chess.engine.board.Move.MajorMove"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.chess.engine.pieces.Knight"/>
+    <fullyQualifiedTypeName name="com.chess.engine.pieces.Bishop"/>
+    <fullyQualifiedTypeName name="com.chess.engine.pieces.Rook"/>
+    <fullyQualifiedTypeName name="sun.security.provider.certpath.Builder"/>
+    <fullyQualifiedTypeName name="com.chess.engine.board.Board.Builder"/>
+    <fullyQualifiedTypeName name="com.chess.engine.board.Move.NullMove"/>
+    <fullyQualifiedTypeName name="com.chess.engine.pieces.Pawn"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="com.chess.engine.board.Move.KingSideCastleMove"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="java.awt.Dimension"/>
+    <fullyQualifiedTypeName name="com.chess.gui.Table"/>
+    <fullyQualifiedTypeName name="javax.swing.JMenuBar"/>
+    <fullyQualifiedTypeName name="javax.swing.JMenuItem"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionEvent"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="java.awt.GridLayout"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.chess.engine.board.BoardUtils"/>
+    <fullyQualifiedTypeName name="java.awt.GridBagLayout"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="com.chess.engine.board.Board"/>
+    <fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+    <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="java.awt.event.MouseListener"/>
+    <fullyQualifiedTypeName name="com.chess.engine.board.Tile"/>
+    <fullyQualifiedTypeName name="com.chess.engine.pieces.Piece"/>
+    <fullyQualifiedTypeName name="com.chess.engine.board.Move"/>
+    <fullyQualifiedTypeName name="com.chess.engine.player.MoveTransition"/>
+    <fullyQualifiedTypeName name="com.chess.engine.board.Move.MoveFactory"/>
+</qualifiedTypeNameHistroy>

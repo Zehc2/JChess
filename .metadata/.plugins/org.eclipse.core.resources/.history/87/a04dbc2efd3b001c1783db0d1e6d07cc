@@ -1,0 +1,75 @@
+package com.chess.engine.board.copy;
+
+import com.chess.engine.player.BlackPlayer;
+import com.chess.engine.player.Player;
+import com.chess.engine.player.WhitePlayer;
+
+public enum Alliance {
+	WHITE
+ {
+		@Override
+		public int getDirection() {
+			
+			// If the players turn is "WHITE" returns 0
+			// TODO Auto-generated method stub
+			return -1;
+		}
+
+		@Override
+		public boolean isWhite() {
+			// isWhite is set to true
+			// TODO Auto-generated method stub
+			return true;
+		}
+
+		@Override
+		public boolean isBlack() {
+			
+			// isBlack set to false
+			// TODO Auto-generated method stub
+			return false;
+		}
+
+		@Override
+		protected Player choosePlayer(final WhitePlayer whitePlayer, final BlackPlayer blackPlayer) {
+			// TODO Auto-generated method stub
+			return whitePlayer;
+		}
+	},	
+	BLACK {
+		@Override
+		public int getDirection() {
+			
+			// If the players turn is "BLACK" returns 1
+			return 1;
+		}
+
+		@Override
+		public boolean isWhite() {
+			// TODO Auto-generated method stub
+			// isWhite is set to false
+			return false;
+		}
+
+		@Override
+		public boolean isBlack() {
+			// TODO Auto-generated method stub
+			// isBlack set to true
+			return true;
+		}
+
+		@Override
+		protected Player choosePlayer(final WhitePlayer whitePlayer, final BlackPlayer blackPlayer) {
+			// TODO Auto-generated method stub
+			return blackPlayer;
+		}
+	};
+	
+	//defines abstract int thats overrided above
+	public abstract int getDirection(); 
+	
+	public abstract boolean isWhite();
+	public abstract boolean isBlack();
+
+	protected abstract Player choosePlayer(WhitePlayer whitePlayer, BlackPlayer blackPlayer);
+}

@@ -1,0 +1,19 @@
+package com.chess;
+
+import com.chess.engine.board.Board;
+import com.chess.gui.Table;
+
+public class JChess {
+	
+	public static void main(String[] args) {
+		
+		
+		//creates new board 
+		Board board = Board.createStandardBoard();
+	
+		// Test prints board
+		System.out.println(board);
+		
+		Table table = new Table();
+	}
+}
